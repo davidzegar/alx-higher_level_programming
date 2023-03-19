@@ -1,0 +1,287 @@
+sh 058ab9c778fe@058ab9c778fe.a516c5d9.alx-cod.online
+058ab9c778fe@058ab9c778fe.a516c5d9.alx-cod.online's password:
+root@058ab9c778fe:/# cd alx-higher_level_programming/
+root@058ab9c778fe:/alx-higher_level_programming# mkdir 0x01-python-if_else_loops_functions
+root@058ab9c778fe:/alx-higher_level_programming# cd 0x01-python-if_else_loops_functions
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi README.md
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# ls
+README.md
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# cat README.md
+0x01. Python - if/else, loops, functions
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# touch 0-positive_or_negative.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# 1-last_digit.py
+bash: 1-last_digit.py: command not found
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# touch 0-positive_or_negative.py 1-last_digit.py 2-print_alphabet.py 3-print_alphabt.py 4-print_hexa.py 5-print_comb2.py 6-print_comb3.py 7-islower.py 8-uppercase.py 9-print_last_digit.py 10-add.py 11-pow.py 12-fizzbuzz.py 13-insert_number.c 100-print_tebahpla.py 101-remove_char_at.py 102-magic_calculation.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi lists.h
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 0-positive_or_negative.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 0-positive_or_negative.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "Positive anything is better than negative nothing"
+[master 81bdac7] Positive anything is better than negative nothing
+ 19 files changed, 35 insertions(+)
+ create mode 100755 0x01-python-if_else_loops_functions/0-positive_or_negative.py
+ create mode 100644 0x01-python-if_else_loops_functions/1-last_digit.py
+ create mode 100644 0x01-python-if_else_loops_functions/10-add.py
+ create mode 100644 0x01-python-if_else_loops_functions/100-print_tebahpla.py
+ create mode 100644 0x01-python-if_else_loops_functions/101-remove_char_at.py
+ create mode 100644 0x01-python-if_else_loops_functions/102-magic_calculation.py
+ create mode 100644 0x01-python-if_else_loops_functions/11-pow.py
+ create mode 100644 0x01-python-if_else_loops_functions/12-fizzbuzz.py
+ create mode 100644 0x01-python-if_else_loops_functions/13-insert_number.c
+ create mode 100644 0x01-python-if_else_loops_functions/2-print_alphabet.py
+ create mode 100644 0x01-python-if_else_loops_functions/3-print_alphabt.py
+ create mode 100644 0x01-python-if_else_loops_functions/4-print_hexa.py
+ create mode 100644 0x01-python-if_else_loops_functions/5-print_comb2.py
+ create mode 100644 0x01-python-if_else_loops_functions/6-print_comb3.py
+ create mode 100644 0x01-python-if_else_loops_functions/7-islower.py
+ create mode 100644 0x01-python-if_else_loops_functions/8-uppercase.py
+ create mode 100644 0x01-python-if_else_loops_functions/9-print_last_digit.py
+ create mode 100644 0x01-python-if_else_loops_functions/README.md
+ create mode 100644 0x01-python-if_else_loops_functions/lists.h
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.11 KiB | 1.11 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   4a77fc5..81bdac7  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 1-last_digit.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 1-last_digit.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "The last digit"
+[master bc13e7e] The last digit
+ 1 file changed, 13 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/1-last_digit.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 510 bytes | 255.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   81bdac7..bc13e7e  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 2-print_alphabet.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 2-print_alphabet.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game"
+[master 2313733] I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+ 1 file changed, 3 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/2-print_alphabet.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 486 bytes | 97.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   bc13e7e..2313733  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 3-print_alphabt.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 3-print_alphabt.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "When I was having that alphabet soup, I never thought that it would pay off"
+[master 3f081b6] When I was having that alphabet soup, I never thought that it would pay off
+ 1 file changed, 4 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/3-print_alphabt.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 496 bytes | 496.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   2313733..3f081b6  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 4-print_hexa.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 4-print_hexa.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "Hexadecimal printing"
+[master 9a553e5] Hexadecimal printing
+ 1 file changed, 3 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/4-print_hexa.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 423 bytes | 423.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   3f081b6..9a553e5  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 5-print_comb2.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 5-print_comb2.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "00...99"
+[master 0ba0ce3] 00...99
+ 1 file changed, 6 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/5-print_comb2.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 438 bytes | 438.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   9a553e5..0ba0ce3  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 6-print_comb3.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 6-print_comb3.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git dd .
+git: 'dd' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "Inventing is a combination of brains and materials. The more brains you use, the less material you need"
+[master 68183ab] Inventing is a combination of brains and materials. The more brains you use, the less material you need
+ 1 file changed, 5 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/6-print_comb3.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 497 bytes | 497.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   0ba0ce3..68183ab  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 7-islower.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 7-islower.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "islower"
+[master 421e694] islower
+ 1 file changed, 3 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/7-islower.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 405 bytes | 405.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   68183ab..421e694  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 8-uppercase.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 8-uppercase.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "To uppercase"
+[master d513fb9] To uppercase
+ 1 file changed, 5 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/8-uppercase.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 456 bytes | 456.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   421e694..d513fb9  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 9-print_last_digit.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 9-print_last_digit.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important"
+[master 0f413d0] There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+ 1 file changed, 5 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/9-print_last_digit.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 498 bytes | 498.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   d513fb9..0f413d0  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 10-add.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 10-add.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "a + b"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   10-add.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "a + b"
+[master da1a07a] a + b
+ 1 file changed, 3 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/10-add.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 369 bytes | 369.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   0f413d0..da1a07a  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 11-pow.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 11-pow.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "a ^ b"
+[master f441228] a ^ b
+ 1 file changed, 3 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/11-pow.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 373 bytes | 186.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   da1a07a..f441228  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 12-fizzbuzz.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 12-fizzbuzz.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git commit -m "Fizz Buzz"
+[master d90b89e] Fizz Buzz
+ 1 file changed, 10 insertions(+)
+ mode change 100644 => 100755 0x01-python-if_else_loops_functions/12-fizzbuzz.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 475 bytes | 475.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidzegar/alx-higher_level_programming.git
+   f441228..d90b89e  master -> master
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions#
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# vi 102-magic_calculation.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# chmod u+x 102-magic_calculation.py
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_functions# git add .
+root@058ab9c778fe:/alx-higher_level_programming/0x01-python-if_else_loops_fun
